@@ -4,7 +4,7 @@ Primeiro projeto utilizando Javascript
 
 https://lyndonjonhson.github.io/jogo-da-velha
 
-<img href="https://raw.githubusercontent.com/LyndonJonhson/jogo-da-velha/master/preview.gif">
+<img src="https://raw.githubusercontent.com/LyndonJonhson/jogo-da-velha/master/preview.gif">
 
 ## TECNOLOGIAS UTILIZADAS
 
