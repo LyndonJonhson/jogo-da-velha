@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Jogo da Velha</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">     
+</head>
+<body>
+    <header>
+        <i class="fas fa-brain"></i>
+        <a href="https://github.com/jonhson13" target="_blank">Lyndon Jonhson</a>
+    </header>
+    <main>
+        <div id="dvmenu">
+            <h1>JOGO DA VELHA</h1>
+            <p>Selecione um Nível:</p>
+            <button onclick="start(1)">Fácil</button>
+            <button onclick="start(2)">Médio</button>
+            <button onclick="start(3)">Difícil</button>
+        </div>
+        <div id="dvgame">
+            <h1 id="level">Aguardando Nível</h1>
+            <div class="box-container">
+                <div id="box1" class="box" onclick="play(1)"></div>
+                <div id="box2" class="box" onclick="play(2)"></div>
+                <div id="box3" class="box" onclick="play(3)"></div>
+                <div id="box4" class="box" onclick="play(4)"></div>
+                <div id="box5" class="box" onclick="play(5)"></div>
+                <div id="box6" class="box" onclick="play(6)"></div>
+                <div id="box7" class="box" onclick="play(7)"></div>
+                <div id="box8" class="box" onclick="play(8)"></div>
+                <div id="box9" class="box" onclick="play(9)"></div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Desenvolvido por: <a href="https://github.com/jonhson13" target="_blank">Lyndon Jonhson</a></p>
+    </footer>
+    <script src="https://kit.fontawesome.com/a9aa051110.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
